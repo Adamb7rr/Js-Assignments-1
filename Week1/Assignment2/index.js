@@ -4,3 +4,4 @@ Elzero.style.color = "blue";
 Elzero.style.fontSize = "40px";
 Elzero.style.textAlign = "center";
 Elzero.style.fontFamily = "Arial";
+Elzero.style.fontWeight = "bold";
