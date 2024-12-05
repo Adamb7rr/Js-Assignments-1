@@ -34,3 +34,16 @@
 //     <div/>
 // `
 // document.write(markUp.repeat(4))
+
+// var a = "10"
+// var b = 20
+// var c = true
+// console.log(a + b)
+// console.log(+a + b + c)
+// console.log(a + b + c)
+
+let a = 10;
+let b = '20';
+let c = 80;
+console.log(++a + +b++ + +c++ - +a++) // 11 + 20 + 80 - 11 = 102
+console.log(++a) // 11 - 20 + 10 + 11 + 10 = 102
