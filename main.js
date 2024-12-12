@@ -94,3 +94,17 @@
 //     default:
 //         document.write('Unknown Day.')
 // }
+
+// let zero = 0;
+// let counter = 3;
+let my = [1, 32, 213, 12, "Ahmed", 'Mazero', "Elham", 123, 123, 544, "Osama", "Gamal", "Ameer"];
+
+// console.log(my)
+
+let onlyNames = []
+for (let i = 0; i <= my.length; i++) {
+    if (typeof my[i] === "string") {
+        onlyNames.push(my[i])
+    }
+}
+console.log(onlyNames)
