@@ -97,14 +97,51 @@
 
 // let zero = 0;
 // let counter = 3;
-let my = [1, 32, 213, 12, "Ahmed", 'Mazero', "Elham", 123, 123, 544, "Osama", "Gamal", "Ameer"];
+// let my = [1, 32, 213, 12, "Ahmed", 'Mazero', "Elham", 123, 123, 544, "Osama", "Gamal", "Ameer"];
 
-// console.log(my)
+// // console.log(my)
 
-let onlyNames = []
-for (let i = 0; i <= my.length; i++) {
-    if (typeof my[i] === "string") {
-        onlyNames.push(my[i])
+// let onlyNames = []
+// for (let i = 0; i <= my.length; i++) {
+//     if (typeof my[i] === "string") {
+//         onlyNames.push(my[i])
+//     }
+// }
+// console.log(onlyNames)
+
+// let product = ['Keyboard', 'Mouse', 'Pen', 'pad', 'Monitor'];
+// let colors = ['Red', 'Green', 'Black'];
+// let Models = [2020, 2021]
+
+// for (let i = 0; i < product.length; i++) {
+//     console.log('#'.repeat(15))
+//     console.log(`# ${product[i]}`)
+//     console.log('#'.repeat(15))
+
+//     console.log(`Colors:`)
+//     for (let i = 0; i < colors.length; i++) {
+        
+//         console.log(`- ${colors[i]}`)
+//     }
+
+//     console.log(`Models:`)
+//     for (let i = 0; i < Models.length; i++) {
+        
+//         console.log(`- ${Models[i]}`)
+//     }
+// }
+
+let product = ['Keyboard', 'Mouse', 'Pen', 'pad', 'Monitor', 'Iphone', 'Tablet'];
+let colors = ['Red', 'Green', 'Black'];
+let showCount = 2;
+
+document.write('<h1>Show 5 Products</h1>');
+
+for (let i = 0; i <= showCount; i++) {
+    document.write(`<div>`)
+    document.write(` <h3>[${i + 1}] ${product[i]}</h3>`)
+    for (let j = 0; j < colors.length; j++) {
+        document.write(`<p>${colors[j]}</p>`)
     }
+    document.write(`</div>`)
 }
-console.log(onlyNames)
